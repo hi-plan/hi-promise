@@ -1,9 +1,18 @@
 'use strict';
 import Promise from '../src/hi-promise.js';
 
-var promise = new Promise();
-promise.then(
-    function() {
+function AsyncTest() {
+    return new Promise((resolve, reject) => {
+        setTimeout(
+            () => {
+                resolve('done');
+            },
+            1000
+        )
+    });
+}
 
-    }
-);
+AsyncTest()
+    .then(( val ) => {
+            console.log("123")
+        });

@@ -6,5 +6,14 @@ var _hiPromise2 = _interopRequireDefault(_hiPromise);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var promise = new _hiPromise2.default();
-promise.then(function () {});
+function AsyncTest() {
+    return new _hiPromise2.default(function (resolve, reject) {
+        setTimeout(function () {
+            resolve('done');
+        }, 1000);
+    });
+}
+
+AsyncTest().then(function (val) {
+    console.log("123");
+});
