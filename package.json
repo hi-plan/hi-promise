@@ -6,18 +6,12 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "gulp-babel": "^6.1.1",
-    "babel-preset-es2015": "^6.1.18"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "babel-preset-es2015": "^6.1.18",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.1",
-    "gulp-watch": "^4.3.5"
+    "promises-aplus-tests": "*"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "promises-aplus-tests ./lib/hi-promise.js"
   },
   "repository": {
     "type": "git",
