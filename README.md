@@ -6,7 +6,7 @@ Super thanks to [**promises-aplus-tests**](https://github.com/promises-aplus/pro
 # Usage
 Just use it like any other Promise libraries.
 
-```
+```javascript
 var Promise = require('hi-promise');
 var p = new Promise(function(resolve, reject) {});
 ```
