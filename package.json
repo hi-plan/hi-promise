@@ -1,7 +1,7 @@
 {
   "name": "hi-promise",
   "version": "1.0.0",
-  "description": "Simplified version of JavaScript Promise implementation, coding by using ECMAScript 6.",
+  "description": "Simplified version of JavaScript Promise implementation",
   "main": "index.js",
   "directories": {
     "test": "test"
